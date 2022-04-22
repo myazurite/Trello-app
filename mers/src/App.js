@@ -1,10 +1,13 @@
 import './App.scss';
+import React from 'react'
+import AppBar from './Components/AppBar/Appbar';
+import BoardBar from './Components/AppBoard/Appboard';
 
 function App() {
   return (
     <div className="Mers-container">
-      <nav className="navbar-app">App bar</nav>
-      <nav className="navbar-board">Board bar</nav>
+      <AppBar />
+      <BoardBar />
       <div className="board-column">
         Board Column
       </div>
