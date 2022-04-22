@@ -9,7 +9,17 @@ function App() {
       <AppBar />
       <BoardBar />
       <div className="board-column">
-        Board Column
+        <header>One</header>
+        <ul>
+          <li>
+            <img scr="https://picsum.photos/seed/picsum/200/200" alt="random-img" />
+          </li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        </ul>
+        <footer>Add another card</footer>
       </div>
       
     </div>
