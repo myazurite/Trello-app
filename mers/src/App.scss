@@ -1,0 +1,20 @@
+@import './settings';
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3em;
+}
+
+.Mers-container { 
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 50px 1fr;
+  background-color: $screen-bg-color;
+
+  .icon {
+    font-size: 20px;
+    margin-left: 3px;
+  }
+}
